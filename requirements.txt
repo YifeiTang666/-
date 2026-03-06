@@ -1,0 +1,38 @@
+# 金融研报生成系统 - 依赖包
+# 依赖环境 RR
+# 核心依赖
+python-dotenv>=1.0.0
+pandas>=2.0.0
+numpy>=1.21.0
+
+# AI大模型
+openai>=1.0.0
+
+# 数据可视化
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# 网络请求与数据采集
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# 金融数据接口
+akshare>=1.12.0
+
+# 搜索引擎
+k-sogou-search
+
+# 文档处理
+pyyaml>=6.0
+markdown>=3.4.0
+
+# 数据处理
+duckdb>=0.8.0
+
+# 数据分析模块依赖
+ipython>=8.0.0
+scipy>=1.9.0
+scikit-learn>=1.0.0
+plotly>=5.0.0
+python-docx>=0.8.11  # 用于生成 Word 文档
